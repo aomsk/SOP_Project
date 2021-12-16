@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "61b862daee0bfaba435f2f55"
+  },
+  "username": "AOMSK",
+  "email": "aommy1234@gmail.com",
+  "password": "123456"
+},{
+  "_id": {
+    "$oid": "61baed0051af463a6ce9100f"
+  },
+  "username": "Happy",
+  "email": "happy@gmail.com",
+  "password": "24680",
+  "_class": "com.example.project_sop.pojo.User"
+},{
+  "_id": {
+    "$oid": "61baf02851af463a6ce91010"
+  },
+  "username": "Richy",
+  "email": "Richy@gmail.com",
+  "password": "456789",
+  "_class": "com.example.project_sop.pojo.User"
+}]
