@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Locale;
 
 @RestController
 public class BookController {
@@ -22,7 +23,7 @@ public class BookController {
         return ResponseEntity.ok(books);
     }
 
-    @RequestMapping(value = "/book/{title}", method = RequestMethod.GET)
+    @RequestMapping(value = "/bookTitle/{title}", method = RequestMethod.GET)
     public ResponseEntity<?> getBookByTitle(@PathVariable("title") String title) {
         Book book = bookService.retrieveBookByTitle(title);
         return ResponseEntity.ok(book);
