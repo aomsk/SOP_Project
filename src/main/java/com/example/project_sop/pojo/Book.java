@@ -11,9 +11,10 @@ import java.util.List;
 public class Book {
 
     @Id
-    private String _id;
+    private Integer _id;
     private String title;
     private String isbn;
+    private String publishedDate;
     private Integer pageCount;
     private String thumbnailUrl;
     private String shortDescription;
@@ -23,11 +24,12 @@ public class Book {
     private List<String> categories;
 
     public Book() {}
-    public Book(String _id, String title, String isbn, Integer pageCount, String thumbnailUrl,
+    public Book(Integer _id, String title, String isbn, String publishedDate, Integer pageCount, String thumbnailUrl,
                 String shortDescription, String longDescription, List<String> authors, List<String> categories) {
         this._id = _id;
         this.title = title;
         this.isbn = isbn;
+        this.publishedDate = publishedDate;
         this.pageCount = pageCount;
         this.thumbnailUrl = thumbnailUrl;
         this.shortDescription = shortDescription;

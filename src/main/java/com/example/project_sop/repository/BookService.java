@@ -20,10 +20,22 @@ public class BookService {
     }
 
     public Book retrieveBookByTitle(String title) {
-        return repository.findByTitle(title);
+        return repository.findBookByTitle(title);
     }
 
     public Book retrieveBookByIsbn(String isbn) {
-        return repository.findByIsbn(isbn);
+        return repository.findBookByIsbn(isbn);
+    }
+
+    public Book retrieveBookById(Integer _id) {
+        return repository.findBookByID(_id);
+    }
+
+    public List<Book> retrieveBookByAuthor(String authors) {
+        return repository.findBookByAuthor(authors);
+    }
+
+    public List<Book> retrieveBookByCategories(String categories) {
+        return repository.findBookByCategories(categories);
     }
 }

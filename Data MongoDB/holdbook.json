@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "61bc62ade99b4c6d35c536dc"
+  },
+  "username": "AOMSK",
+  "holdBook": [
+    "Flex on Java",
+    "Flex 3 in Action",
+    "Flex 4 in Action",
+    "Flex on Java",
+    "Jaguar Development with PowerBuilder 7",
+    "Taming Jaguar",
+    "Android in Action, Second Edition",
+    "Android in Action, Second Edition",
+    "null"
+  ],
+  "_class": "com.example.project_sop.pojo.Hold"
+},{
+  "_id": {
+    "$oid": "61bd0c59869cdd5286727742"
+  },
+  "username": "Sipang",
+  "holdBook": [
+    "Coffeehouse"
+  ],
+  "_class": "com.example.project_sop.pojo.Hold"
+}]
